@@ -15,6 +15,7 @@
     <PackageReleaseNotes>Added feature to verify the dependency injection configuration for a given type.</PackageReleaseNotes>
     <PackageLicenseUrl>https://github.com/introtocomputerscience/azure-function-autofac-dependency-injection/blob/master/LICENSE</PackageLicenseUrl>
     <AssemblyVersion>3.0.6.0</AssemblyVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="[4.2.1]" />
+    <PackageReference Include="autofac" Version="4.9.4" />
     <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
   </ItemGroup>
 
